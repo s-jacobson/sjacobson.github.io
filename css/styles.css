@@ -1,0 +1,382 @@
+body {
+    font-family: 'Aref Ruqaa', serif;
+}
+
+header {
+    font-size: 1.25em;
+    color: #fff;
+    padding: 8px 40px 0px 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.container-head {
+    background-color: #000;
+    height: 56px;
+    width: 1280px;
+    padding: 8px 60px 8px 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+button.nav-link {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 1em;
+    background-color: #187993;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 18px;
+    float: right;
+    position: fixed;
+    right: 56px;
+    top: 23px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    position: fixed;
+}
+
+li {
+    float: right;
+    padding-right: 4%;
+}
+
+li.nav-blog {
+    position: fixed;    
+    right: 240px;
+    top: 28px;;
+}
+
+li.nav-about {
+    position: fixed;    
+    right: 300px;
+    top: 28px;
+}
+
+li.nav-tips {
+    position: fixed;    
+    right: 372px;
+    top: 28px;
+}
+
+li.nav-images {
+    position: fixed;    
+    right: 428px;
+    top: 28px;
+}
+
+.button-link {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 1.2em;
+    background-color: #187993;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 20px 8px 20px;
+    margin-left: 56px;
+}
+
+.welcome-title {
+    font-size: 2em;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    margin-left: 56px;
+}
+
+.welcome {
+    width: 500px;
+    margin-left: 56px;
+    margin-bottom: 30px;    
+}
+
+.blog-title {
+    font-size: 2em;
+/*    margin-bottom: 18px;*/
+    float: right;
+    position: relative;
+    right: 382px;
+    top: -164px;
+}
+
+.blog-aug {
+    width: 500px;
+    float: right;
+    position: relative;
+    right: -120px;
+    top: -110px;
+}
+
+.blog-jul {
+    width: 500px;
+    float: right;
+    position: relative;
+    right: -620px;
+    top: -90px;
+}
+
+.blog-jun {
+    width: 500px;
+    float: right;
+    position: relative;
+    right: 52px;
+    top: -82px;
+}
+
+.about-title {
+    font-size: 2em;
+    padding-top: 84px;
+    margin-left: 56px;
+}
+
+.about-details-1 {
+    margin-top: 10px;
+    margin-left: 56px;
+    width: 500px;
+}
+
+.about-details-2 {
+    margin-top: 16px;
+    margin-left: 56px;
+    width: 500px;
+}
+
+.about-quote {
+    font-family: "Helvetica", sans-serif;
+    font-size: .75em;
+    margin-top: 40px;
+    margin-left: 56px;
+    width: 500px;
+}
+
+.recent-styles-title {
+    font-size: 2em;
+    padding-top: 84px;
+    margin-left: 56px;
+}
+
+.tips-title {
+    font-size: 2em;
+    padding-top: 84px;
+    margin-left: 56px;
+}
+
+.heart-details, .heart-title-2, .heart-details-2, .heart-title-3, .heart-details-3 {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+
+.heart-details {
+    color: #999;
+    float: right;
+    position: relative;
+    top: auto;
+    right: 680px;
+}
+
+.heart-title-2 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: 80px;
+    right: 380px
+}
+
+.heart-title-3 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: 352px;
+    right: -220px;
+}
+
+.heart-details-2 {
+    float: right;
+    position: relative;
+    top: 116px;
+    right: 80px;
+}
+
+.heart-details-3 {
+    float: right;
+    position: relative;
+    top: 351px;
+    right: -220px;
+}
+
+.oval-details, .oval-title-2, .oval-details-2, .oval-title-3, .oval-details-3 {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+
+.oval-details {
+    color: #999;
+    float: right;
+    position: relative;
+    top: -146px;
+    right: -860px;
+}
+
+.oval-title-2 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: -144px;
+    right: 40px
+}
+
+.oval-title-3 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: -560px;
+}
+
+.oval-details-2 {
+    float: right;
+    position: relative;
+    top: -108px;
+    right: -260px;
+}
+
+.oval-details-3 {
+    float: right;
+    position: relative;
+    top: 88px;
+    right: -860px;
+}
+
+.round-details, .round-title-2, .round-details-2, .round-title-3, .round-details-3 {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+
+.round-details {
+    color: #999;
+    float: right;
+    position: relative;
+    top: 180px;
+    right: 80px;
+}
+
+.round-title-2 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: 206px;
+    right: -220px
+}
+
+.round-title-3 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: 570px;
+    right: -220px;
+}
+
+.round-details-2 {
+    float: right;
+    position: relative;
+    top: 205px;
+    right: 80px;
+}
+
+.round-details-3 {
+    float: right;
+    position: relative;
+    top: 568px;
+    right: -220px;
+/*    margin-bottom: -100px*/
+}
+
+.square-details, .square-title-2, .square-details-2, .square-title-3, .square-details-3 {
+    width: 300px;
+    float: right;
+    position: relative;
+}
+
+.square-details {
+    color: #999;
+    float: right;
+    position: relative;
+    top: -100px;
+    right: -860px;
+}
+
+.square-title-2 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: -100px;
+    right: -860px
+}
+
+.square-title-3 {
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    top: -100px;
+    right: 40px;
+}
+
+.square-details-2 {
+    float: right;
+    position: relative;
+    top: -100px;
+    right: -860px;
+}
+
+.square-details-3 {
+    float: right;
+    position: relative;
+    top: -64px;
+    right: -258px;
+/*    margin-bottom: 100px*/
+}
+
+.container-footer {
+    background-color: #000;
+    padding-top: 28px;
+    color: #fff;
+    font-size: .75em;
+    height: 46px;
+    width: 1280px;
+    margin-top: 48px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.footer-email {
+    margin-left: 56px; 
+}
+
+.footer-space {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 1070px;
+}
+
+.footer-phone {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: 980px;
+}
